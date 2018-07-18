@@ -1,0 +1,213 @@
+
+ [
+    {
+        "question": "what is your name?",
+        "answer": "",
+        "true": "how are you doing?",
+        "false": "Can't you remember your name ?",
+        "notsure": "Say it loudly and clearly!"
+    },
+    {
+        "question": "how old are you?",
+        "answer": "",
+        "true": "This is a beautiful age!",
+        "false": "don't be shy!",
+        "notsure": "Okay!"
+    },
+    {
+        "question": "What animal would be cutest if scaled down to the size of a cat ?",
+        "answer": "",
+        "true": "you definetly love it, I see",
+        "false": "No..No..No.., you can't cheat me!",
+        "notsure": "fine!"
+    },
+    {
+        "question": "What movie can you watch over and over without ever getting tired of?",
+        "answer": "",
+        "true": "for sure, you love this movie!",
+        "false": "female beings are not perdictable :(",
+        "notsure": "ok, I remembered that"
+    },
+    {
+        "question": "Where do you get most of the decorations for your home?",
+        "answer": "",
+        "true": "oh...that is really nice",
+        "false": "female beings are not perdictable :(",
+        "notsure": "anyway, it is your own favour"
+    },
+    {
+        "question": "Do you think that aliens exist?",
+        "answer": "",
+        "true": "I agree with you!",
+        "false": "Are you honest to yourself, even",
+        "notsure": "I don't know, might be.."
+    },
+    {
+        "question": "If someone narrated your life, who would you want to be the narrator?",
+        "answer": "",
+        "true": "",
+        "false": "",
+        "notsure": ""
+    },
+    {
+        "question": "What was the most unsettling film you’ve seen?",
+        "answer": "",
+        "true": "why is him, such a wired person!",
+        "false": "Are you honest to yourself, even",
+        "notsure": "okay.... if you chose so"
+    },
+    {
+        "question": "If animals could talk, which animal would be the most annoying?",
+        "answer": "",
+        "true": "I hate that also....",
+        "false": "really... I think you have a lot to hate ..",
+        "notsure": "eh... fair enough.."
+    },
+    {
+        "question": "Who has zero filter between their brain and mouth?",
+        "answer": "",
+        "true": "eh.. I think you have falled in loved with him",
+        "false": "oh... you are so unlucky :(",
+        "notsure": "are you a human being, plase speak louder"
+    },
+    {
+        "question": "What country is the strangest?",
+        "answer": "",
+        "true": "I don't know... maybe...",
+        "false": "I don't know... maybe...",
+        "notsure": "I don't know... maybe..."
+    },
+    {
+        "question": "What brand are you most loyal to?",
+        "answer": "",
+        "true": "oh.. can you be more vulgar",
+        "false": "fine. you are loyal to anything , are you",
+        "notsure": "nice to know that"
+    },
+    {
+        "question": "What did you Google last?",
+        "answer": "",
+        "true": "you are a tireless person",
+        "false": "isn't there any better in your life ?",
+        "notsure": "okay, try something else next time."
+    },
+    {
+        "question": "What odd smell do you really enjoy?",
+        "answer": "",
+        "true": "haha.. that is really disgusting!",
+        "false": "you are wired ...",
+        "notsure": "to me, I prefer sour onion .. ha ha ha "
+    },
+    {
+        "question": "What food do you crave most often?",
+        "answer": "",
+        "true": "okay... I don't care ",
+        "false": "are you a fat guy/girl",
+        "notsure": "en... God will remeber that"
+    },
+    {
+        "question": "What’s your secret talent?",
+        "answer": "",
+        "true": "It sounds awsone ,I will keep the secret",
+        "false": "you are more talent than you think",
+        "notsure": "Bingo,Bingo,Bingo"
+    },
+    {
+        "question": "What company do you despise?",
+        "answer": "",
+        "true": "I won't let them know",
+        "false": "I don't trust anybody... ",
+        "notsure": "I agree with you even though..."
+    },
+    {
+        "question": "What animal would you most like to eat?",
+        "answer": "",
+        "true": "it is a good choice, isn't it",
+        "false": "okay... but .... what ever...",
+        "notsure": "I am shocked ..."
+    },
+    {
+        "question": "How ambitious are you?",
+        "answer": "",
+        "true": "no... you are not...",
+        "false": "okay... I agree with you ",
+        "notsure": "I can't be sure if your are honest"
+    },
+    {
+        "question": "What topic could you spend hours talking about?",
+        "answer": "",
+        "true": "change a new one next time",
+        "false": "you must try writing a novel..",
+        "notsure": "that is a nice one"
+    },
+    {
+        "question": "What do you do to make the world a better place?",
+        "answer": "",
+        "true": "you are a nice person",
+        "false": "is it realistic",
+        "notsure": "thank you !"
+    },
+    {
+        "question": "What values are most important to you?",
+        "answer": "",
+        "true": ":)",
+        "false": ":(",
+        "notsure": "Can we be friends :)"
+    },
+    {
+        "question": "What did you eat so much of that now you hate it?",
+        "answer": "",
+        "true": "ha....ha.... You must hate it forever",
+        "false": "oh... try new things always..",
+        "notsure": "I believe not only you"
+    },
+    {
+        "question": "What did you like about where you grew up?",
+        "answer": "",
+        "true": "you are an honest guy/girl",
+        "false": "are you a honest guy/girl",
+        "notsure": "I dout your honesty"
+    },
+    {
+        "question": "What did you dislike about where you grew up?",
+        "answer": "",
+        "true": "you are an honest guy/girl",
+        "false": "are you a honest guy/girl",
+        "notsure": "I dout your honesty"
+    },
+    {
+        "question": "What has someone borrowed but never given back?",
+        "answer": "",
+        "true": "do you want to kill that person?",
+        "false": "poor dear,the world owes you too much! ",
+        "notsure": "I have no means to take it back for you"
+    },
+    {
+        "question": "What was the darkest movie you’ve ever seen?",
+        "answer": "",
+        "true": "oh... you must watch it again!",
+        "false": "what else can you name ?",
+        "notsure": "is it eally dark ?"
+    },
+    {
+        "question": "What word do you always misspell?",
+        "answer": "",
+        "true": "haha... many people do it also based on my guess",
+        "false": "based on my guess, you should pracise writing",
+        "notsure": "that is a bad one"
+    },
+    {
+        "question": "What’s the most disgusting sounding word in the English language?",
+        "answer": "",
+        "true": "you must tried it hard many times",
+        "false": "I see, just try few time more. It's going to be better.",
+        "notsure": "ha..ha.. you know what, I can't understand you"
+    },
+    {
+        "question": "What’s something that I don’t know?",
+        "answer": "",
+        "true": "you are a honest guy/gril",
+        "false": "there must be a lot more ,I believe",
+        "notsure": "ok.... I trust you for now"
+    }
+]

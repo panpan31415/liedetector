@@ -1,0 +1,156 @@
+.main {
+    background: teal;
+    min-height: 600px;
+    min-width: 340px;
+    position: relative;
+    padding: 2px 2px;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+.dialogPanel {
+    border: 2px solid teal;
+    border-radius: 5px;
+    background-color: #FFF4E3;
+    opacity: 1;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    overflow-Y: scroll;
+    margin: 10 auto;
+}
+
+.conversation {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+    margin: 5px auto;
+    border:1px solid red;
+    height:auto;
+}
+
+.robot {
+    display: flex;
+    border-radius: 5px;
+    max-width: 70%;
+    background: #26c6da;
+    color: white;
+    margin: 0;
+   height: auto;;
+    padding: 5px;
+    margin-right: auto;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.human {
+    display: block;
+    border-radius: 5px;
+    background: #ffa726;
+    color: white;
+    display: block;
+    height:auto;
+    max-width: 70%;
+    margin-left: auto;
+    padding: 5px;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.head_icon {
+    display:flex;
+    height: 2rem;
+    width: 2rem;
+    margin: 5px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.human_icon {
+    background-image: url("./users.svg");
+    background-color: #ffa726;
+    border: 2px solid #ffa726;
+    float: right;
+}
+
+.robot_icon {
+    background-image: url("./robot.svg");
+    background-color: #26c6da;
+    border: 2px solid #26c6da;
+}
+
+.dialogControlPanel {
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dialogControlPanel input {
+    display: inline-block;
+    min-width: 80px;
+    min-height: 80px;
+    border-radius: 50%;
+    margin: 2px;
+    background-image: url("./multimedia.svg");
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center;
+    border:2px solid silver;
+    
+}
+
+.dialogControlPanel input:hover {
+    box-shadow:0 0 3px 3px #ffa726;
+    cursor: pointer;
+   
+}
+
+.recordingActive{
+    box-shadow:0 0 3px 3px #ffa726;
+    cursor: pointer;
+    animation: glowing 1500ms infinite;
+}
+
+@keyframes glowing {
+    0% { background-color: #ffa726; box-shadow: 0 0 3px #ffa726; }
+    50% { background-color: #FF530D; box-shadow: 0 0 40px #FF530D; }
+    100% { background-color: #ffa726; box-shadow: 0 0 3px #ffa726; }
+  }
+
+.dialogControlPanel textarea {
+    display: inline-block;
+    width: 100%;
+    min-height: 80px;
+    margin: 2px;
+    font-weight:800;
+    border:1pxs solid goldenrod;
+    border-radius: 5px;
+    padding:5px;
+    resize: none;
+}
+.sendMsg{
+    position: absolute;
+    right:10px;
+    bottom: 20px;
+    height:40px;
+    width: 65px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    background-color:orange;
+    cursor: pointer;
+}
+.sendMsg:active{
+    background-color:#9E6818;
+}
