@@ -21,4 +21,7 @@ main purpose of this project:
   
   or you can clone to local to test it out :)  
   
+  -----------------------------
+  Just found out, speech recogonition doesn't work event for Chrom in iOS... 
+  
   
