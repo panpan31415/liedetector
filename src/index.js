@@ -5,12 +5,12 @@ import logger from 'redux-logger';
 import { Provider } from "react-redux";
 import thunkMiddleware from "redux-thunk";
 import App from './container/App';
-import {Rogonition,conversation} from "./reducers";
+import {Rogonition,Questions} from "./reducers";
 import registerServiceWorker from './registerServiceWorker';
 
 
 
-let rootReducer = combineReducers({Rogonition,conversation});
+let rootReducer = combineReducers({Rogonition,Questions});
 
 const store = createStore(rootReducer,applyMiddleware(thunkMiddleware,logger));
 

@@ -9,28 +9,46 @@ const SpeechRecognition_propTypes = {
 }
 
 const ControlPanel = (props) => {
-    const { propstranscript, transcript, listening, browserSupportsSpeechRecognition, startListening, stopListening, resetTranscript, onRecordBtnClicked, sendMsg } = props;
+    const {
+        transcript,
+        browserSupportsSpeechRecognition,
+        startListening,
+        stopListening,
+        resetTranscript,
+        recording,
+        clickRecord,
+        RecordBtn_className,
+        currentQuestionIndex,
+        answerQuestion,
+        askQuestion,
+        judgeAnswer,
+        questions} = props;
     if (!browserSupportsSpeechRecognition) {
         return <p style={{ color: "white" }}>Your browser doesn't support speech recognition,use latest chrom to try this application!</p>
     } else {
         return (
             <div className="dialogControlPanel ">
-                <input type="button" onClick={() =>{
-                    if(props.recording){
-                        stopListening();
-                        resetTranscript();
-                        props.clickRecord(false);
-                        console.log(true);
-                    }else{
-                        startListening();
-                        props.clickRecord(true);
-                        console.log(false);
-                    }
-                }} 
-                    className={props.RecordBtn_className}
+                <input type="button"
+                    onClick={() => {
+                        if (recording) {
+                            stopListening();
+                            resetTranscript();
+                            clickRecord(!recording);
+                        } else {
+                            startListening();
+                            clickRecord(!recording);
+                        }
+                    }}
+                    className={RecordBtn_className}
                 />
                 <textarea type="textarea" id="redoredText" value={transcript} placeholder={"click the microphone to start"}></textarea>
-                <button type="button" className="sendMsg" data-value={transcript} data-sender={"USER"} onClick={(event) => { props.sendMsg(event); resetTranscript(); }} >Send</button>
+                <button type="button" className="sendMsg" data-sender={"USER"}
+                    onClick={(event) => {
+                        answerQuestion(event.target.previousElementSibling.value, currentQuestionIndex);
+                        resetTranscript();
+                        judgeAnswer();
+                        askQuestion(questions);
+                    }} >Send</button>
             </div>
         );
     }

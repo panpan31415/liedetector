@@ -15,24 +15,22 @@
     opacity: 1;
     height: 500px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
     align-content: flex-end;
     flex-wrap: wrap;
-    overflow-Y: scroll;
+    overflow-Y: auto;
     margin: 10 auto;
 }
 
 .conversation {
     display:flex;
-    justify-content: flex-end;
     align-items: center;
     width: 100%;
     padding: 10px;
     font-weight: 400;
     margin: 5px auto;
-    border:1px solid red;
     height:auto;
 }
 
@@ -43,7 +41,7 @@
     background: #26c6da;
     color: white;
     margin: 0;
-   height: auto;;
+    height: auto;;
     padding: 5px;
     margin-right: auto;
     align-items: center;
@@ -51,13 +49,14 @@
 }
 
 .human {
-    display: block;
+    display: flex;
     border-radius: 5px;
     background: #ffa726;
     color: white;
     display: block;
     height:auto;
     max-width: 70%;
+    align-items: center;
     margin-left: auto;
     padding: 5px;
     box-shadow: 3px 3px 3px 3px #ccc;
