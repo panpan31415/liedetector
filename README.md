@@ -17,6 +17,8 @@ main purpose of this project:
   
   -understand hot to distribute responbilities to actions and reducers
   
-  page link : https://panpan.dk/liedetector/
+  page link : https://panpan.dk/liedetector/ 
+  
+  or you can clone to local to test it out :)  
   
   
