@@ -15,7 +15,7 @@ main purpose of this project:
   
   -understand how to use actions and reducers
   
-  -understand hot to distribute responbilities to actions and reducers
+  -understand how to distribute responbilities to actions and reducers
   
   page link : https://panpan.dk/liedetector/ 
   
